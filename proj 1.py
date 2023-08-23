@@ -10,7 +10,8 @@ print ( " x1 é igual a : ", x1 ,"x2 é igual a: ", x2)
 
 
 anoBi = int(input( " Digite o ano "))
-bisexto = (anoBi % 4 == 0 and anoBi % 100 != 0) or (anoBi % 400 == 0)
+bissexto = (anoBi % 4 == 0 and anoBi % 100 != 0) or (anoBi % 400 == 0)
+print (bissexto and f"{anoBi} é um ano bissexto" or f"{anoBi} não é bissexto")
 
 
 
